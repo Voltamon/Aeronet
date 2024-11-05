@@ -1,24 +1,24 @@
-  <body>
+<body>
   <h1>
     <img src="https://i.ibb.co/853WF7T/icon.jpg" alt="AeroNet Logo", style="height:30px">
     AeroNet
   </h1>
-  <p>AeroNet is a concept project designed to develop a realistic, semi-autonomous Air Traffic Management (ATM) system. The primary goal is to alleviate the workload of Air Traffic Controllers (ATCs) by automating routine tasks and providing intelligent support. This system aims to enhance overall safety and efficiency in airspace management.</p>
+  <p>AeroNet is a concept project designed with the aim of developing a realistic semi-autonomous Air Traffic Management (ATM) system. The primary objective is to alleviate the workload of Air Traffic Controllers (ATCs) by automating routine tasks and providing intelligent decision support. By streamlining operations and enhancing situational awareness, AeroNet seeks to elevate the safety and efficiency of airspace management </p>
 
   <h2>Project Objectives</h2>
   <ul>
-    <li>Reduce ATC workload</li>
-    <li>Optimize flight paths</li>
-    <li>Prevent mid-air collisions</li>
-    <li>Effective navigation guidance</li>
+    <li>Reducing workload of  ATCs, allowing more room for critical-thinking when crucial.</li>
+    <li>Streamlining the process of deciding flight paths</li>
+    <li>Preventing mid-air collisions</li>
+    <li>Providing effective guidance on navigation</li>
   </ul>
 
   <h2>System Features</h2>
   <ul>
     <li>Autonomous flight guidance</li>
     <li>Real-time data analysis</li>
-    <li>Collision avoidance system</li>
-    <li>Navaid integration</li>
+    <li>Collision addressing system</li>
+    <li>NAVAID integration</li>
   </ul>
 
   <h2>Technology Stack</h2>
@@ -54,13 +54,14 @@
   <p>Limitations: May not account for all potential emergency scenarios.</p>
 
   <h2>Airspace Design</h2>
-  <p>Incorporates a tiered structure of waypoints (20 total) strategically arranged for optimized air traffic flow and enhanced safety.
+  <p> 1. Two parallel runways 09 L and 27 R, both in N-S direction.</p>
+  <p> 2. Tiered structure of waypoints (20 total) strategically arranged for optimized air traffic flow and enhanced safety.
     <ul>
       <li>Primary Waypoints (12): Distance - 25 nautical miles</li>
       <li>Secondary Waypoints (6): Distance - 15 nautical miles</li>
       <li>Tertiary Waypoints (2): Distance - 5 nautical miles</li>
     </ul>
-  This tiered approach ensures efficient routing and avoids congestion within the airspace.</p>
+     This approach ensures efficient routing and avoids congestion within the airspace.</p>
 
   <p>
     <img src="https://i.ibb.co/XCjfr3R/image.png" alt="Airspace Design">
@@ -68,8 +69,8 @@
 
   <h2>Getting Started</h2>
   <ol>
-    <li>Install required libraries (`pip install mysql-connector-python8.0.0 numpy pillow`).</li>
-    <li>Set up a MySQL database (not covered here).</li>
+    <li>Install the required libraries (`pip install mysql-connector-python8.0.0 numpy pillow`).</li>
+    <li>Set up a MySQL database.</li>
     <li>Configure database connection details in the code.</li>
     <li>Run the main script (`python main.py`).</li>
   </ol>
