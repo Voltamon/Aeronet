@@ -1,11 +1,22 @@
 import mysql.connector as db
 from Utils.Credentials.CredUtils import Credentials
 
+from tkinter import simpledialog, Tk
+import sys
+
 class Aeronet:
     def get_valid_connection(self) -> object:
-        password = Credentials.get_password()
+        root = Tk()
+        root.withdraw()
+        
+        root.protocol('WM_DELETE_WINDOW', lambda: sys.exit(0))
+        
+        password : str = Credentials.get_password()
         if not password:
-            password = input("Please enter your mysql password : ")
+            password = self.get_password_input(root)
+            if password is None:
+                root.destroy()
+                sys.exit(0)
 
         while True:
             try:
@@ -15,11 +26,26 @@ class Aeronet:
                     password=password
                 )
                 Credentials.set_password(password)
+                root.destroy()
                 return myDB
             except db.errors.ProgrammingError:
-                if not password == "Aeronet@123":
-                    print("Wrong Password, Try Again")
-                password = input("Please enter your mysql password : ")
+                password = self.get_password_input(root)
+                if password is None:
+                    root.destroy()
+                    sys.exit(0)
+
+    def get_password_input(self, root) -> str:
+        while True:
+            password = simpledialog.askstring(
+                "MySQL Password", 
+                "Please enter your my-sql password:", 
+                show='*',
+                parent=root
+            )
+            if password is None:
+                return None
+            if password.strip():
+                return password
 
     def initialize_database(self, cursor : object) -> None:
         cursor.execute("CREATE DATABASE IF NOT EXISTS Aeronet")
