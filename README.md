@@ -67,7 +67,7 @@
       </ul>
       This approach ensures efficient routing and avoids congestion within the airspace.</li>
   </ol>
-  <img src="https://i.ibb.co/XCjfr3R/image.png" alt="Airspace Design" align="center">
+  <img src="https://i.ibb.co/XCjfr3R/image.png" alt="Airspace Design" style="margin : 0 auto">
 
 <h2>Getting Started</h2>
 <ol>
