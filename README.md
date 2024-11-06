@@ -25,7 +25,7 @@
   </ul>
 
   <h2>Technology Stack</h2>
-  <ul class="tech-stack">
+  <ul>
     <li>Front-end: Python Tkinter</li>
     <li>Back-end: Python with MySQL database</li>
     <li>Programming languages: Python</li>
@@ -67,7 +67,7 @@
       </ul>
       This approach ensures efficient routing and avoids congestion within the airspace.</li>
   </ol>
-  <img src="https://i.ibb.co/XCjfr3R/image.png" alt="Airspace Design" class="center-image">
+  <img src="https://i.ibb.co/XCjfr3R/image.png" alt="Airspace Design" align="center">
 
 <h2>Getting Started</h2>
 <ol>
