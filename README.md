@@ -54,16 +54,16 @@
   <p>Limitations: May not account for all potential emergency scenarios.</p>
 
   <h2>Airspace Design</h2>
-  <p> 1. Two parallel runways 09 L and 27 R, both in N-S direction.</p>
-  <p> 2. Tiered structure of waypoints (20 total) strategically arranged for optimized air traffic flow and enhanced safety.
+  <ol> <li>1. Two parallel runways 09 L and 27 R, both in N-S direction.</li>
+  <li> 2. Tiered structure of waypoints (20 total) strategically arranged for optimized air traffic flow and enhanced safety.
     <ul>
       <li>Primary Waypoints (12): Distance - 25 nautical miles</li>
       <li>Secondary Waypoints (6): Distance - 15 nautical miles</li>
       <li>Tertiary Waypoints (2): Distance - 5 nautical miles</li>
     </ul>
-     This approach ensures efficient routing and avoids congestion within the airspace.</p>
+     This approach ensures efficient routing and avoids congestion within the airspace.</li>
 
-  <p>
+  </ol>
     <img src="https://i.ibb.co/XCjfr3R/image.png" alt="Airspace Design">
   </p>
 
