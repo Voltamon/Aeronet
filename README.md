@@ -65,9 +65,11 @@
         <li>Secondary Waypoints (6): Distance - 15 nautical miles</li>
         <li>Tertiary Waypoints (2): Distance - 5 nautical miles</li>
       </ul>
-      This approach ensures efficient routing and avoids congestion within the airspace.</li>
+    </li>
   </ol>
-  <img src="https://i.ibb.co/XCjfr3R/image.png" alt="Airspace Design" style="margin : 0 auto">
+  <br>
+  <p>This approach ensures efficient routing and avoids congestion within the airspace.</p>
+  <img src="https://i.ibb.co/XCjfr3R/image.png" alt="Airspace Design">
 
 <h2>Getting Started</h2>
 <ol>
